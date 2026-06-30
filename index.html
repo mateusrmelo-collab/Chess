@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogo de Xadrez</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Xadrez</h1>
+  <div class="subtitle">Clique numa peça e depois no destino. Brancas começam.</div>
+
+  <div class="game-wrap">
+    <div class="board-area">
+      <div class="board-container">
+        <div class="ranks" id="ranks"></div>
+        <div id="board"></div>
+      </div>
+      <div class="files with-ranks" id="files"></div>
+    </div>
+
+    <div class="panel">
+      <div class="status" id="status"><span class="turn-dot" style="background:#fff"></span>Vez das Brancas</div>
+
+      <div class="captured-label">Capturadas pelas Brancas</div>
+      <div class="captured-row" id="capturedByWhite"></div>
+      <div class="captured-label">Capturadas pelas Pretas</div>
+      <div class="captured-row" id="capturedByBlack"></div>
+
+      <button class="btn btn-primary" id="newGameBtn">Novo Jogo</button>
+      <button class="btn btn-secondary" id="undoBtn">Desfazer Jogada</button>
+      <button class="btn btn-secondary" id="flipBtn">Girar Tabuleiro</button>
+
+      <div class="moves-list" id="movesList"></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="promoModal">
+    <div class="modal">
+      <h3>Escolha a promoção</h3>
+      <div class="promo-choices" id="promoChoices"></div>
+    </div>
+  </div>
+  <p class="absolute">Desenvolvido por <a href="https://mateusrmelo-collab.github.io/DevMateus/">DevMateus</a></p>
+  <script src="script.js"></script>
+</body>
+</html>
