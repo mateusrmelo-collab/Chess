@@ -1,18 +1,18 @@
 
 const PIECES = {
-  wK:'pecas/wK.png',
-  wQ:'pecas/wQ.png',
-  wR:'pecas/wR.png',
-  wB:'pecas/wB.png',
-  wN:'pecas/wN.png',
-  wP:'pecas/wP.png',
+  wK:'pecas/wk.png',
+  wQ:'pecas/wq.png',
+  wR:'pecas/wr.png',
+  wB:'pecas/wb.png',
+  wN:'pecas/wn.png',
+  wP:'pecas/wp.png',
 
-  bK:'pecas/bK.png',
-  bQ:'pecas/bQ.png',
-  bR:'pecas/bR.png',
-  bB:'pecas/bB.png',
-  bN:'pecas/bN.png',
-  bP:'pecas/bP.png'
+  bK:'pecas/bk.png',
+  bQ:'pecas/bq.png',
+  bR:'pecas/br.png',
+  bB:'pecas/bb.png',
+  bN:'pecas/bn.png',
+  bP:'pecas/bp.png'
 };
 
 let board = [];          
